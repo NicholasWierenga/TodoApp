@@ -1,0 +1,41 @@
+.remove {
+    float: right;
+}
+
+div {
+    font-family:'Open Sans';
+    font-weight: 300;
+    border: solid;
+    width:70%;
+    margin-left: 15%;
+    padding:1%;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); 
+}
+
+body {
+    /* My window always pads 8px no matter what, so puts it back to 0. 
+       Setting it to 0 didn't fix it. It still added 8px margin. */ 
+    margin: -8px; 
+    background: linear-gradient(to right, #f857a6, #ff5858);
+    height: 100vw;
+    padding-top: 2%;
+    overflow: hidden;
+}
+
+.completeButton{
+    border: solid;
+    border-radius: 7px;
+    color: #ff5858;
+}
+
+.addTodoButton{
+    border: solid;
+    color: #f857a6;
+    width: 100%;
+}
+
+.inputBar{
+    padding-right:0;
+    min-width:99%;
+}
